@@ -21,7 +21,7 @@
 ## Data Flow
 User → IAM Authentication → EC2 via Security Group → S3 (private storage)
 
-## Main Security Controls
+## Security Controls Implemented
 - Root MFA enabled
 - No daily root usage
 - Least privilege IAM model
