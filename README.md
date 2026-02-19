@@ -201,13 +201,13 @@ Confirm connection works.
 
  
 ________________________________________
-6.8 Security Group Verification
+ Security Group Verification
 •	Try connecting from another IP (optional test)
 •	Confirm connection fails  : I turn on the vpn therefore the IP has changed 
  
 ________________________________________
 Phase 5 — Storage Hardening
-6.9 Create Secure S3 Bucket
+ Create Secure S3 Bucket
 1.	S3 → Create bucket
 2.	Unique name
 3.	Keep Block Public Access = ON
@@ -216,7 +216,7 @@ Create bucket.
 
  
 ________________________________________
-6.10 Upload Test Object
+ Upload Test Object
 Upload a small text file/img.
  
 
@@ -225,7 +225,7 @@ Expected: Access Denied.
  
 ________________________________________
 Phase 6 — Architecture Validation
-6.11 Verify Security Controls
+ Verify Security Controls
 Check:
 •	Root MFA enabled
 •	No public SSH
@@ -234,7 +234,7 @@ Check:
 •	Budget active
 ________________________________________
 Phase 7 — Cleanup (Cost Control Discipline)
-6.12 Terminate EC2
+ Terminate EC2
 1.	EC2 → Instance → Terminate
 2.	Delete unused EBS volumes
 3.	Keep S3 bucket only if needed
