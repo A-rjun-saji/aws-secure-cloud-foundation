@@ -16,3 +16,21 @@ Steps:
 Command:
 ```bash
 ssh -i key.pem ec2-user@public-ip
+
+
+
+#Validation:
+
+SSH connection successful from approved IP
+
+Security Group Verification
+
+#Test:
+
+Turn on VPN (public IP changes)
+
+SSH connection fails as expected
+
+#Result:
+
+Security Group correctly enforced IP restriction
