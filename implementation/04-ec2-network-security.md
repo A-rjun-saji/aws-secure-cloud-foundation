@@ -19,18 +19,18 @@ ssh -i key.pem ec2-user@public-ip
 
 
 
-#Validation:
+Validation:
 
 SSH connection successful from approved IP
 
 Security Group Verification
 
-#Test:
+Test:
 
 Turn on VPN (public IP changes)
 
 SSH connection fails as expected
 
-#Result:
+Result:
 
 Security Group correctly enforced IP restriction
